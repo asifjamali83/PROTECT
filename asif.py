@@ -2616,19 +2616,19 @@ def bot(op):
                               spl = msg.text.replace('Wl ','')
                               if spl == 'on':
                                   if msg.to in welcome:
-                                       msgs = "Welcome Msg sudah aktif"
+                                       msgs = "Welcome Msg is active"
                                   else:
                                        welcome.append(msg.to)
                                        ginfo = cl.getGroup(msg.to)
-                                       msgs = "Welcome Msg diaktifkan\nDi Group : " +str(ginfo.name)
+                                       msgs = "Welcome Msg is activated\nDi Group : " +str(ginfo.name)
                                   cl.sendMessage(msg.to, "「Diaktifkan」\n" + msgs)
                               elif spl == 'off':
                                     if msg.to in welcome:
                                          welcome.remove(msg.to)
                                          ginfo = cl.getGroup(msg.to)
-                                         msgs = "Welcome Msg dinonaktifkan\nDi Group : " +str(ginfo.name)
+                                         msgs = "Welcome Msg is disabled\nDi Group : " +str(ginfo.name)
                                     else:
-                                         msgs = "Welcome Msg sudah tidak aktif"
+                                         msgs = "Welcome Msg is already inactive"
                                     cl.sendMessage(msg.to, "「Dinonaktifkan」\n" + msgs)
 
                         elif 'Pu ' in msg.text:
@@ -2669,7 +2669,7 @@ def bot(op):
                                          msgs = "Protect kick dinonaktifkan\nDi Group : " +str(ginfo.name)
                                     else:
                                          msgs = "Protect kick sudah tidak aktif"
-                                    cl.sendMessage(msg.to, "「Dinonaktifkan」\n" + msgs)
+                                    cl.sendMessage(msg.to, "「Dinonaktifkan」\n" + msgs)invite
 
                         elif 'Pj ' in msg.text:
                            if msg._from in admin:
@@ -2852,7 +2852,7 @@ def bot(op):
                                            admin[target] = True
                                            f=codecs.open('admin.json','w','utf-8')
                                            json.dump(admin, f, sort_keys=True, indent=4,ensure_ascii=False)                                            
-                                           cl.sendMessage(msg.to,"Berhasil menambahkan admin")
+                                           cl.sendMessage(msg.to,"★·.ѕυcceѕѕғυlly added adмιn.·★")
                                        except:
                                            pass
 
@@ -2867,7 +2867,7 @@ def bot(op):
                                for target in targets:
                                        try:
                                            staff.append(target)
-                                           cl.sendMessage(msg.to,"Berhasil menambahkan staff")
+                                           cl.sendMessage(msg.to,"Successfully added staff")
                                        except:
                                            pass
 
@@ -2898,7 +2898,7 @@ def bot(op):
                                            del admin[target]
                                            f=codecs.open('admin.json','w','utf-8')
                                            json.dump(admin, f, sort_keys=True, indent=4,ensure_ascii=False)                                            
-                                           cl.sendMessage(msg.to,"Berhasil menghapus admin")
+                                           cl.sendMessage(msg.to,"Successfully deleted the admin")
                                        except:
                                            pass
 
@@ -2913,7 +2913,7 @@ def bot(op):
                                    if target not in Dpk:
                                        try:
                                            staff.remove(target)
-                                           cl.sendMessage(msg.to,"Berhasil menghapus admin")
+                                           cl.sendMessage(msg.to,"Successfully deleted the admin")
                                        except:
                                            pass
 
@@ -3118,7 +3118,7 @@ def bot(op):
                                for target in targets:
                                        try:
                                            wait["Talkblacklist"][target] = True
-                                           cl.sendMessage(msg.to,"Berhasil menambahkan blacklist")
+                                           cl.sendMessage(msg.to,"Successfully added blacklist")
                                        except:
                                            pass
 
