@@ -17,7 +17,7 @@ from googletrans import Translator
 import youtube_dl
 
 #LOGIN PAKAI QR BIAR NGK RIBET AMBIL TOKEN NYA
-#รєใғв๏ҭ вұ: ◄]·❍✯͜͡⊰์◉⊱τ∉∂m d®∂ⓖ๏n ❂Ғ w∂®®¡๏®⊰์◉⊱™️✯͜͡❂➣
+#в๏ҭ вұ: ◄]·❍✯͜͡⊰์◉⊱:༒☬Zaℓim ħέάŕţ ħάςķέŕ☬༒⊰์◉⊱™️✯͜͡❂➣
 
 #ANTIJS_V2
 cl = LineClient()
@@ -50,14 +50,14 @@ sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
 
-print ("รєใғв๏ҭ вұ: ◄]·❍✯͜͡⊰์◉⊱τ∉∂m d®∂ⓖ๏n ❂Ғ w∂®®¡๏®⊰์◉⊱™️✯͜͡❂➣")
+print ("в๏ҭ вұ:  ◄]·❍✯͜͡⊰์◉⊱:༒☬Zaℓim ħέάŕţ ħάςķέŕ☬༒⊰์◉⊱™️✯͜͡❂➣
 
 poll = LinePoll(cl)
 call = cl
-creator = ["Mid Luu"]
-owner = ["Mid Luu"]
-admin = ["Mid Luu"]
-staff = ["Mid Luu"]
+creator = ["ufe278afdfb3617b8fd9919c9489b9ced"]
+owner = ["ufe278afdfb3617b8fd9919c9489b9ced"]
+admin = ["ufe278afdfb3617b8fd9919c9489b9ced"]
+staff = ["ufe278afdfb3617b8fd9919c9489b9ced"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
@@ -1372,12 +1372,12 @@ def bot(op):
                         if cmd == "self on":
                             if msg._from in admin:
                                 wait["selfbot"] = True
-                                cl.sendText(msg.to, "Selfbot diaktifkan")
+                                cl.sendText(msg.to, "★·.ŹÄĻÏMŚ ÄŖË ÄĊȚÏVËÄȚËĐ.·★")
                                 
                         elif cmd == "self off":
                             if msg._from in admin:
                                 wait["selfbot"] = False
-                                cl.sendText(msg.to, "Selfbot dinonaktifkan")
+                                cl.sendText(msg.to, "★·.ŹÄĻÏM ÏŚ ĐËÄĐ.·★")
                                             
                         elif cmd == "help2":
                           if wait["selfbot"] == True:
@@ -1425,7 +1425,7 @@ def bot(op):
 
                         elif cmd == "creator" or text.lower() == 'creator':
                             if msg._from in admin:
-                                cl.sendText(msg.to,"Creator Bot Abi ♡ Riny") 
+                                cl.sendText(msg.to,"Creator Bot ꧁۝şℎαℎ̿̿ 🇿αίŃ࿐۝꧂") 
                                 ma = ""
                                 for i in creator:
                                     ma = cl.getContact(i)
