@@ -56,4 +56,4 @@ pkg upgrade
 
 #   Spesial Thank's To ALLAH S.W.T
 #   Thank's To Arifistifik
-#   Editing By Abiputrallg
+#   Editing Asif Jamali
