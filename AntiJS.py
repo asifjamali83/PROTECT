@@ -21,31 +21,31 @@ import youtube_dl
 
 #ANTIJS_V2
 cl = LineClient()
-#cl = LineClient(authToken='Tokwn Luu')
+cl = LineClient(authToken='EFfGnuHqlPtuCn0EYO54.AI/sqK1rPfDta4o3nrhLba.gYvLYc7ynDYlTKWbEfnbSuagQYy43ecbcbNgg3GaddY=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 ki = LineClient()
-#ki = LineClient(authToken='Token Luu')
+ki = LineClient(authToken='EFfCS7S1YihkXXE8dmb8.V9fPQ4Ni715zhNxzTDLx/a.pSG+jRZC6PPtMz+uaym1dB6ZoRzHsNa5GLVSGKRmx88=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
 kk = LineClient()
-#kk = LineClient(authToken='Token Luu')
+kk = LineClient(authToken='EFbajDaQJjOfrYXuR7X4./Coef04cSd1Ymaih+V2ADa.0IdAS5BpnGYWnYYmd8OKJiS3skciKXxo4n5OmJ+ygBs=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
 kc= LineClient()
-#kc = LineClient(authToken='Token Luu')
+kc = LineClient(authToken='EFgr7yU0c5jCrXhyO7i8.FPNfS/tWhjxbbnczp8qzMa.AE/dc5qS6JeIC0NaABAIUQ9HXzycMrw8ZVr9PxiMHxo=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 sw= LineClient()
-#sw = LineClient(authToken='Token Luu')
+sw = LineClient(authToken='EF6GlKasL8x1TMi7rTXe.3cAxcr7qxHraojb5FPmKlG.DdHokM1SJYd7MNkRNDb9GKB0OKSI/xyYPjZCxaKy09E=')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
@@ -54,10 +54,10 @@ print ("в๏ҭ вұ:  ◄]·❍✯͜͡⊰์◉⊱:༒☬Zaℓim ħέάŕţ ħ�
 
 poll = LinePoll(cl)
 call = cl
-creator = ["ufe278afdfb3617b8fd9919c9489b9ced"]
-owner = ["ufe278afdfb3617b8fd9919c9489b9ced"]
-admin = ["ufe278afdfb3617b8fd9919c9489b9ced"]
-staff = ["ufe278afdfb3617b8fd9919c9489b9ced"]
+creator = ["u6a2f92424d51a457530383b73511e504"]
+owner = ["u6a2f92424d51a457530383b73511e504"]
+admin = ["u6a2f92424d51a457530383b73511e504"]
+staff = ["u6a2f92424d51a457530383b73511e504"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
